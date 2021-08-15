@@ -31,9 +31,10 @@
     border-radius: 15px;
     height: auto;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: row;
+    flex-wrap: wrap;
     text-align: start;
-    direction: column;
+    direction: row;
     justify-content: center;
     float: center;
     padding: 20px;
