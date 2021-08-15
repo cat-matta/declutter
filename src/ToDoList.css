@@ -7,17 +7,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     text-align: start; 
-    justify-content: left;
+    justify-content: center;
     float: left;
     padding: 20px;
     cursor: pointer;     
-
-    transition: all 0.3s ease;
-}
-.Task-list .checkboxes label{
-    font:bolder 60%;
-    padding-right: 60px;
-      
+    transition: all 0.2s ease;
 }
 
 .ContainerImage{
@@ -40,16 +34,23 @@
     /* flex-direction: column; */
     text-align: start;
     direction: column;
-    justify-content: left;
-    float: left;
+    justify-content: center;
+    float: center;
     padding: 20px;
     cursor: pointer;    
 }
-.checkbox {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
+label{
+    display: inline-block;
+}
+.checkbox{
+    box-sizing: border-box;
+    color: #9C7C73;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4px;
+
+}
+.completed-task {
+    text-decoration: line-through;
+    color: #db3545;
 }

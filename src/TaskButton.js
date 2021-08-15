@@ -7,6 +7,7 @@ function TaskButton({ onValue }) {
         if(taskName.length >0){
             onValue(taskName);
     }
+
     }
 
     return (
@@ -15,6 +16,7 @@ function TaskButton({ onValue }) {
             type="submit"
             onClick={handleClick}
         > + Add Task </button>
+
     )
 }
 
